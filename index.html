@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Monblanproject</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/datepicker.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/datepicker.en.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div id="wrapper">
+        <header class="header">
+            <div class="contant_wrapper container">
+                <div class="header_row row">
+                    <div class="col-sm-4 header_row__logo">
+                        <a href="index.html" title="Monblanproject">
+                            <img src="img/logo.png" alt="Monblanproject">
+                        </a>
+                    </div>
+                    <div class="col-sm-8 header_row__info">
+                        <div class="title">
+                            <h1>monblanproject</h1>
+                            <a href="#" class="start_btn">Start on 17-02-2016</a>
+                        </div>
+                        <div class="statistics">
+                            <ul class="statistics__list">
+                                <li class="statistics__item"><span>870</span>posts</li>
+                                <li class="statistics__item"><span>11,787</span>followers</li>
+                                <li class="statistics__item"><span>112</span>following</li>
+                            </ul>
+                        </div>
+                        <div class="calendar">
+
+                            <span>Date</span>
+
+                            <label class="calendar__item left" for="calendar_left">
+                                <input type='text' id="calendar_left" class="datepicker-here" data-position="bottom left" />
+                                <span class="close-icon"></span>
+                                <span class="calendar"></span>
+                            </label>
+
+                            <label class="calendar__item right" for="calendar_right">
+                                <input type='text' id="calendar_right" class="datepicker-here" data-position="bottom left" />
+                                <span class="close-icon"></span>
+                                <span class="calendar"></span>
+                            </label>
+                            <script>
+                                // Initialization
+                                $('#my-element').datepicker()
+                                // Access instance of plugin
+                                $('#my-element').data('datepicker')
+                            </script>
+                        </div> <!-- calendar -->
+                    </div> <!-- header_row__info -->
+                </div> <!-- header_row -->
+            </div> <!-- container -->
+        </header>
+        <main class="main">
+            <div class="contant_wrapper container">
+                <div class="event_row row">
+                    <div class="event_row__col col-sm-4">
+                        <div class="event_row__item">
+                            <div class="info">
+                                <div class="info__row row">
+                                    <div class="col-xs-4 info__col day">Today</div>
+                                    <div class="col-xs-4 info__col like">128</div>
+                                    <div class="col-xs-4 info__col comment">31</div>
+                                </div>
+                                <div class="row info__row">
+                                    <div class="col-xs-4 info__col day">9-08-2016</div>
+                                    <div class="col-xs-4 info__col like">67</div>
+                                    <div class="col-xs-4 info__col comment">22</div>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <p>Image upload: 11-04-2016</p>
+                            </div>
+                        </div> <!-- event_row_item -->
+                    </div> <!-- event_row__col -->                    
+                    <div class="event_row__col col-sm-4">
+                        <div class="event_row__item">
+                            <div class="info">
+                                <div class="info__row row">
+                                    <div class="col-xs-4 info__col day">Today</div>
+                                    <div class="col-xs-4 info__col like">128</div>
+                                    <div class="col-xs-4 info__col comment">31</div>
+                                </div>
+                                <div class="row info__row">
+                                    <div class="col-xs-4 info__col day">9-08-2016</div>
+                                    <div class="col-xs-4 info__col like">67</div>
+                                    <div class="col-xs-4 info__col comment">22</div>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <p>Image upload: 11-04-2016</p>
+                            </div>
+                        </div> <!-- event_row_item -->
+                    </div> <!-- event_row__col -->   
+
+                    <div class="event_row__col col-sm-4">
+                        <div class="event_row__item">
+                            <div class="camera"></div>
+                            <div class="info">
+                                <div class="info__row row">
+                                    <div class="col-xs-4 info__col day">Today</div>
+                                    <div class="col-xs-4 info__col like">128</div>
+                                    <div class="col-xs-4 info__col comment">31</div>
+                                </div>
+                                <div class="row info__row">
+                                    <div class="col-xs-4 info__col day">9-08-2016</div>
+                                    <div class="col-xs-4 info__col like play">67</div>
+                                    <div class="col-xs-4 info__col comment">22</div>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <p>Image upload: 11-04-2016</p>
+                            </div>
+                        </div> <!-- event_row_item -->
+                    </div> <!-- event_row__col -->  
+
+                    <div class="event_row__col col-sm-4">
+                        <div class="event_row__item">
+                            <div class="info">
+                                <div class="info__row row">
+                                    <div class="col-xs-4 info__col day">Today</div>
+                                    <div class="col-xs-4 info__col like">128</div>
+                                    <div class="col-xs-4 info__col comment">31</div>
+                                </div>
+                                <div class="row info__row">
+                                    <div class="col-xs-4 info__col day">9-08-2016</div>
+                                    <div class="col-xs-4 info__col like">67</div>
+                                    <div class="col-xs-4 info__col comment">22</div>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <p>Image upload: 11-04-2016</p>
+                            </div>
+                        </div> <!-- event_row_item -->
+                    </div> <!-- event_row__col -->   
+
+                    <div class="event_row__col col-sm-4">
+                        <div class="event_row__item">
+                             <div class="camera"></div>
+                            <div class="info">
+                                <div class="info__row row">
+                                    <div class="col-xs-4 info__col day">Today</div>
+                                    <div class="col-xs-4 info__col like play">128</div>
+                                    <div class="col-xs-4 info__col comment">31</div>
+                                </div>
+                                <div class="row info__row">
+                                    <div class="col-xs-4 info__col day">9-08-2016</div>
+                                    <div class="col-xs-4 info__col like play">67</div>
+                                    <div class="col-xs-4 info__col comment">22</div>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <p>Image upload: 11-04-2016</p>
+                            </div>
+                        </div> <!-- event_row_item -->
+                    </div> <!-- event_row__col --> 
+
+                    <div class="event_row__col col-sm-4">
+                        <div class="event_row__item">
+                            <div class="info">
+                                <div class="info__row row">
+                                    <div class="col-xs-4 info__col day">Today</div>
+                                    <div class="col-xs-4 info__col like">128</div>
+                                    <div class="col-xs-4 info__col comment">31</div>
+                                </div>
+                                <div class="row info__row">
+                                    <div class="col-xs-4 info__col day">9-08-2016</div>
+                                    <div class="col-xs-4 info__col like">67</div>
+                                    <div class="col-xs-4 info__col comment">22</div>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <p>Image upload: 11-04-2016</p>
+                            </div>
+                        </div> <!-- event_row_item -->
+                    </div> <!-- event_row__col -->  
+
+                    <div class="event_row__col col-sm-4">
+                        <div class="event_row__item">
+                            <div class="info">
+                                <div class="info__row row">
+                                    <div class="col-xs-4 info__col day">Today</div>
+                                    <div class="col-xs-4 info__col like">128</div>
+                                    <div class="col-xs-4 info__col comment">31</div>
+                                </div>
+                                <div class="row info__row">
+                                    <div class="col-xs-4 info__col day">9-08-2016</div>
+                                    <div class="col-xs-4 info__col like">67</div>
+                                    <div class="col-xs-4 info__col comment">22</div>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <p>Image upload: 11-04-2016</p>
+                            </div>
+                        </div> <!-- event_row_item -->
+                    </div> <!-- event_row__col -->  
+
+                    <div class="event_row__col col-sm-4">
+                        <div class="event_row__item">
+                            <div class="info">
+                                <div class="info__row row">
+                                    <div class="col-xs-4 info__col day hide-item">Today</div>
+                                    <div class="col-xs-4 info__col like">128</div>
+                                    <div class="col-xs-4 info__col comment">31</div>
+                                </div>
+                                <div class="row info__row">
+                                    <div class="col-xs-4 info__col day">9-08-2016</div>
+                                    <div class="col-xs-4 info__col like">67</div>
+                                    <div class="col-xs-4 info__col comment">22</div>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <p>Image upload: 11-04-2016</p>
+                            </div>
+                        </div> <!-- event_row_item -->
+                    </div> <!-- event_row__col -->    
+
+                    <div class="event_row__col col-sm-4">
+                        <div class="event_row__item">
+                            <div class="info">
+                                <div class="info__row row">
+                                    <div class="col-xs-4 info__col day">Today</div>
+                                    <div class="col-xs-4 info__col like">128</div>
+                                    <div class="col-xs-4 info__col comment">31</div>
+                                </div>
+                                <div class="row info__row">
+                                    <div class="col-xs-4 info__col day">9-08-2016</div>
+                                    <div class="col-xs-4 info__col like">67</div>
+                                    <div class="col-xs-4 info__col comment">22</div>
+                                </div>
+                            </div>
+                            <div class="upload">
+                                <p>Image upload: 11-04-2016</p>
+                            </div>
+                        </div> <!-- event_row_item -->
+                    </div> <!-- event_row__col -->
+                    
+                </div> <!-- event_row -->
+
+
+                <div class="load_more_row row">
+                    <a href="#" class="load_more_row__btn" title="Load more">Load more</a>
+                </div>
+            </div> <!-- container -->
+        </main>
+        <footer class="footer"></footer>
+    </div>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>    
+
+
+
+
+
+
+
+
+
+

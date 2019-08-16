@@ -1,0 +1,272 @@
+body {
+  background: #fafafa; }
+
+a:hover,
+a:focus {
+  text-decoration: none; }
+
+.contant_wrapper.container {
+  width: 936px; }
+
+.hide-item {
+  visibility: hidden; }
+
+header {
+  background: #fff; }
+
+.header_row__logo {
+  text-align: center; }
+
+.header_row__info .title h1 {
+  font-size: 35px;
+  display: inline-block;
+  margin-right: 20px; }
+.header_row__info .title .start_btn {
+  font-size: 15px;
+  padding: 10px 10px;
+  color: #4090db;
+  border: 1px solid;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px; }
+.header_row__info .statistics .statistics__list {
+  padding-left: 0;
+  list-style: none; }
+  .header_row__info .statistics .statistics__list .statistics__item {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 30px; }
+    .header_row__info .statistics .statistics__list .statistics__item span {
+      font-size: 17px;
+      font-weight: bold;
+      display: inline-block;
+      margin-right: 5px; }
+.header_row__info .calendar {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center; }
+  .header_row__info .calendar span {
+    font-size: 17px; }
+  .header_row__info .calendar .calendar__item {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0 15px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center; }
+    .header_row__info .calendar .calendar__item input,
+    .header_row__info .calendar .calendar__item input:focus {
+      border: none;
+      outline: none;
+      padding-left: 10px; }
+    .header_row__info .calendar .calendar__item span {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      cursor: pointer; }
+    .header_row__info .calendar .calendar__item .close-icon {
+      border-right: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      background: url(../img/close.png), #ebebeb;
+      background-repeat: no-repeat;
+      background-position: center; }
+    .header_row__info .calendar .calendar__item .calendar {
+      background: url(../img/calendar.png), #ebebeb;
+      background-repeat: no-repeat;
+      background-position: center; }
+
+.datepicker--day-name {
+  color: #333;
+  font-weight: bold; }
+
+.datepicker--cell {
+  cursor: pointer; }
+
+.datepicker--cell.-selected- {
+  background: #4090db; }
+
+main.main {
+  margin-top: 70px; }
+
+.event_row .event_row__col {
+  margin-bottom: 25px; }
+  .event_row .event_row__col .event_row__item {
+    height: 290px;
+    width: 290px;
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    margin: 0 auto; }
+    .event_row .event_row__col .event_row__item .info .info__row {
+      font-size: 17px;
+      color: #fff; }
+      .event_row .event_row__col .event_row__item .info .info__row .info__col {
+        padding: 0 0 0 28px; }
+      .event_row .event_row__col .event_row__item .info .info__row .info__col.like:before,
+      .event_row .event_row__col .event_row__item .info .info__row .info__col.comment:before,
+      .event_row .event_row__col .event_row__item .info .info__row .info__col.play:before {
+        display: inline-block;
+        content: "";
+        width: 25px;
+        height: 20px;
+        position: relative;
+        top: 5px; }
+      .event_row .event_row__col .event_row__item .info .info__row .info__col.like:before {
+        background: url(../img/heart.png) no-repeat;
+        background-size: contain; }
+      .event_row .event_row__col .event_row__item .info .info__row .info__col.like.play:before {
+        background: url(../img/play.png) no-repeat;
+        background-size: contain; }
+      .event_row .event_row__col .event_row__item .info .info__row .info__col.comment:before {
+        background: url(../img/comment.png) no-repeat;
+        background-size: contain; }
+    .event_row .event_row__col .event_row__item .camera {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      display: block;
+      width: 35px;
+      height: 30px;
+      content: "";
+      background: url(../img/camera.png); }
+    .event_row .event_row__col .event_row__item .upload {
+      text-align: center;
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+      font-size: 17px;
+      color: #fff;
+      font-weight: 600; }
+  .event_row .event_row__col .event_row__item:before {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5); }
+.event_row .event_row__col:nth-child(1) .event_row__item,
+.event_row .event_row__col:nth-child(2) .event_row__item,
+.event_row .event_row__col:nth-child(3) .event_row__item {
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  -o-justify-content: flex-end;
+  justify-content: flex-end;
+  padding-bottom: 65px; }
+.event_row .event_row__col:nth-child(1) .event_row__item {
+  background: url(../img/event_1.png); }
+.event_row .event_row__col:nth-child(2) .event_row__item {
+  background: url(../img/event_2.png); }
+.event_row .event_row__col:nth-child(3) .event_row__item {
+  background: url(../img/event_3.png); }
+.event_row .event_row__col:nth-child(4) .event_row__item {
+  background: url(../img/event_4.png); }
+.event_row .event_row__col:nth-child(5) .event_row__item {
+  background: url(../img/event_5.png); }
+.event_row .event_row__col:nth-child(6) .event_row__item {
+  background: url(../img/event_6.png); }
+.event_row .event_row__col:nth-child(7) .event_row__item {
+  background: url(../img/event_7.png); }
+.event_row .event_row__col:nth-child(8) .event_row__item {
+  background: url(../img/event_8.png); }
+.event_row .event_row__col:nth-child(9) .event_row__item {
+  background: url(../img/event_9.png); }
+
+.load_more_row {
+  text-align: center;
+  margin: 20px 0 70px; }
+  .load_more_row .load_more_row__btn {
+    color: #000;
+    border: 1px solid;
+    text-transform: uppercase;
+    font-size: 12px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    padding: 7px 26px; }
+
+@media (max-width: 991px) {
+  .contant_wrapper.container {
+    width: 736px; }
+
+  .header_row__info .calendar .calendar__item input, .header_row__info .calendar .calendar__item input:focus {
+    width: 130px; }
+
+  .event_row .event_row__col .event_row__item {
+    width: 230px; }
+
+  .event_row .event_row__col .event_row__item .info .info__row {
+    font-size: 14px; }
+
+  .event_row .event_row__col .event_row__item .info .info__row .info__col {
+    padding: 0 0 0 22px; } }
+@media (max-width: 767px) {
+  .header_row__info {
+    text-align: center; }
+
+  .header_row__info .calendar {
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center; }
+
+  .event_row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center; }
+
+  .event_row .event_row__col:nth-child(1) .event_row__item, .event_row .event_row__col:nth-child(2) .event_row__item, .event_row .event_row__col:nth-child(3) .event_row__item {
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    padding-bottom: 0; } }
+@media (max-width: 480px) {
+  .event_row .event_row__col .event_row__item {
+    width: 290px; } }
+
+/*# sourceMappingURL=main.css.map */
